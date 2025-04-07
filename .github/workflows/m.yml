@@ -1,12 +1,7 @@
 name: Check MobileProvision Expiry
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   check-profiles:
